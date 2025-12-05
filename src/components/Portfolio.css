@@ -13,10 +13,10 @@
   font-weight: 700;
 }
 .portfolio-title {
-  font-size: 42px;
-  font-weight: 800;
-  color: #222;
-  position: relative;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #1a1a1a;
 }
 
 .portfolio-title::after {
@@ -30,10 +30,10 @@
 }
 
 .portfolio-sub {
-  text-align: center;
-  font-size: 18px;
+   font-size: 16px;
   color: #666;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 /* =============================
@@ -85,7 +85,8 @@
 .project-content p {
   font-size: 15px;
   color: #555;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
+  
 }
 
 /* =============================

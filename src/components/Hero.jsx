@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import profileImg from "../assets/akhil/profile.jpeg";
+import profileImg from "../assets/akhil/bg-profile.png";
 
 const Hero = () => {
   return (

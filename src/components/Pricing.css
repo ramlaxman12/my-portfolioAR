@@ -67,9 +67,7 @@
 }
 
 /* ------- Popular Border ------- */
-.popular-card {
-  border: 2px solid #ff9d42;
-}
+
 
 /* Popular Ribbon */
 .popular-ribbon {
@@ -145,9 +143,6 @@
 
 /* Popular Button */
 .popular-btn {
-  background: #ff8c00 !important;
+  background: #1b5e20 !important;
 }
 
-.popular-btn:hover {
-  background: #e67600 !important;
-}
