@@ -1,5 +1,5 @@
 import React from "react";
-import "./cta.css";
+import "./CTA.css";
 import { FiSend } from "react-icons/fi";
 import { BsHeadset, BsShieldCheck } from "react-icons/bs";
 import { AiOutlineClockCircle } from "react-icons/ai";
