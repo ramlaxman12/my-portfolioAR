@@ -1,0 +1,148 @@
+/* ================================
+   About Section
+================================= */
+.about {
+  width: 100%;
+  padding: 5px 8%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  
+  transition: transform 0.3s ease;
+  
+}
+
+
+/* Container */
+.about-container {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+/* About Title */
+
+.about-title {
+  font-size: 42px;
+  font-weight: 800;
+  color: #222;
+  position: relative;
+}
+
+.about-title::after {
+  content: "";
+  width: 70px;
+  height: 4px;
+  background: #f28c28;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 4px;
+}
+
+
+/* About Text */
+.about-text {
+  font-size: 18px;
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Skills */
+.skills-heading {
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.skills span {
+  padding: 8px 16px;
+  background: #fff2e3;
+  border: 1px solid #ffc78a;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+}
+
+.skills span:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(242, 140, 40, 0.4);
+  background: #ffd9b3;
+}
+
+/* Experience Boxes */
+.experience-boxes {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.exp-box {
+  width: 140px;
+  background: #fff6eb;
+  border: 1px solid #ffd8ad;
+  padding: 16px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 4px 14px rgba(255, 163, 79, 0.2);
+  transition: transform 0.4s, box-shadow 0.4s;
+  cursor: default;
+}
+
+.exp-box:hover {
+  transform: rotateX(10deg) rotateY(10deg) scale(1.05);
+  box-shadow: 0 14px 30px rgba(255, 163, 79, 0.35);
+}
+
+.exp-box h3 {
+  font-size: 32px;
+  color: #f28c28;
+  margin-bottom: 4px;
+}
+
+.exp-box p {
+  font-size: 14px;
+  color: #444;
+}
+
+/* Social Icons */
+.about-socials {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.about-socials a {
+  font-size: 30px;
+  color: #333;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.about-socials a:hover {
+  color: #f28c28;
+  transform: scale(1.2) rotate(10deg);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .skills, .experience-boxes {
+    justify-content: center;
+  }
+}

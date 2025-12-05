@@ -1,0 +1,71 @@
+/* ===========================
+   Skills Section Style
+   =========================== */
+
+.skills-section {
+  width: 100%;
+  padding: 80px 0;
+  text-align: center; /* Centers the heading */
+}
+
+/* ------- Heading (Same as Portfolio) ------- */
+.skills-section .heading {
+  font-size: 42px;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 50px;
+  color: #1a1a1a;
+}
+
+/* Orange underline */
+.skills-section .heading::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: #ff8c00;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  border-radius: 10px;
+}
+
+/* ------- Grid Layout ------- */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 25px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* ------- Individual Skill Card ------- */
+.skill-card {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 20px 10px;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+/* ------- Icon ------- */
+.skill-icon {
+  font-size: 35px;
+  color: #ff8c00;
+  margin-bottom: 10px;
+}
+
+/* ------- Skill Name ------- */
+.skill-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
